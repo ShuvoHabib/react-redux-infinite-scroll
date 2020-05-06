@@ -1,6 +1,6 @@
 {
   "name": "react-redux-redux-saga-infinite-scroll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "## React",
   "main": "InfiniteScroll.js",
   "scripts": {
