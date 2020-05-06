@@ -2,14 +2,14 @@
 
 A React component to make all your infinite scrolling problems go away with just 4 kB! Pull Down to Refresh feature added. An infinite-scroll that actually works and super-simple to integrate!
 
-## A fully guided documentation for this journey in inifinity Scrolling
+### A fully guided documentation for this journey in inifinity Scrolling
 
 ### Installation
 
-import InfiniteScroll from the module.
-`npm i react-redux-redux-saga-infinite-scroll`;
+#### `npm i react-redux-redux-saga-infinite-scroll`;
 
 ### ES6  (Let's call the file name, 'Items.jsx/Items.js')
+
 `import InfiniteScroll from 'react-redux-redux-saga-infinite-scroll';`
 
 #### Render Component
