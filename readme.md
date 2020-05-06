@@ -1,6 +1,6 @@
 # React Infinite scroll Redux/Redux Saga Support
 
-A React component to make all your infinite scrolling problems go away with just 4 kB! Pull Down to Refresh feature added. An infinite-scroll that actually works and super-simple to integrate!
+A React component to make all your infinite scrolling problems go away with just 6 kB! An infinite-scroll that actually works and super-simple to integrate with redux and redux-saga!
 
 ### A fully guided documentation for this journey in inifinity Scrolling
 
