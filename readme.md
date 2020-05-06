@@ -16,6 +16,8 @@ loadMoreAPICall = () => {
 }
 ```
 #### Render Component
+
+```
 const items = items.map((item, i)=> 
   <div className="item-wrapper">
     {item}
@@ -30,7 +32,7 @@ const items = items.map((item, i)=>
   >
     {items}
 </InfiniteScroll>
-
+```
 ### Other Available Props: 
 ```
   1. scrollerStyle = {
