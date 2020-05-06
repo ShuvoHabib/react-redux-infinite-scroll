@@ -1,0 +1,27 @@
+{
+  "name": "react-redux-redux-saga-infinite-scroll",
+  "version": "1.0.0",
+  "description": "## React",
+  "main": "InfiniteScroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShuvoHabib/react-redux-infinite-scroll.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "inifinite",
+    "scroll",
+    "redux",
+    "saga"
+  ],
+  "author": "Shuvo Habib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShuvoHabib/react-redux-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/ShuvoHabib/react-redux-infinite-scroll#readme"
+}
