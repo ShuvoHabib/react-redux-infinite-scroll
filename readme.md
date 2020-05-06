@@ -1,22 +1,18 @@
 # React Infinite scroll Redux/Redux Saga Support
 
-## React
+A React component to make all your infinite scrolling problems go away with just 4 kB! Pull Down to Refresh feature added. An infinite-scroll that actually works and super-simple to integrate!
 
-### React Component Structure
+## A fully guided documentation for this journey in inifinity Scrolling
+
+### Installation
+
 import InfiniteScroll from the module.
+`npm i react-redux-redux-saga-infinite-scroll`;
 
-`import InfiniteScroll from 'react-redux-infinite-scroll';`
+### ES6  (Let's call the file name, 'Items.jsx/Items.js')
+`import InfiniteScroll from 'react-redux-redux-saga-infinite-scroll';`
 
-#### Method
-```
-loadMoreAPICall = () => {
-  const paginationCount = 10 // Number of products per page to show
-  const currentPage = 1 // Data from API
-  this.props.getItemList(currentPage + 1, paginationCount); /* Get Request */
-}
-```
-#### Render Component (Let's call the file name, 'Items.jsx/Items.js')
-
+#### Render Component
 ```
 const items = items.map((item, i)=> 
   <div className="item-wrapper">
@@ -33,6 +29,16 @@ const items = items.map((item, i)=>
     {items}
 </InfiniteScroll>
 ```
+
+#### Method
+```
+loadMoreAPICall = () => {
+  const paginationCount = 10 // Number of products per page to show
+  const currentPage = 1 // Data from API
+  this.props.getItemList(currentPage + 1, paginationCount); /* Get Request */
+}
+```
+
 ### Other Available Props: 
 ```
   1. scrollerStyle = {
