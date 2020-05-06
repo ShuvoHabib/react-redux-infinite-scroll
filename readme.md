@@ -15,7 +15,7 @@ loadMoreAPICall = () => {
   this.props.getItemList(currentPage + 1, paginationCount); /* Get Request */
 }
 ```
-#### Render Component
+#### Render Component (Let's call the file name, 'Items.jsx/Items.js')
 
 ```
 const items = items.map((item, i)=> 
