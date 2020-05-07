@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { paginationCount } from '../../configs';
 import spinner from './spinner.svg';
 
 class InfiniteScroll extends Component {
@@ -14,7 +13,8 @@ class InfiniteScroll extends Component {
       textAlign: 'center',
     },
     spinnerIcon: spinner,
-    endText: "You're all caught up!"
+    endText: "You're all caught up!",
+    paginationCount: 10,
   }
 
   state = {
@@ -23,6 +23,7 @@ class InfiniteScroll extends Component {
   }
 
   handleScroll = (e) => {
+    const { paginationCount } = this.props;
     const scrollHeight = e.target.scrollHeight;
     const scrollTop = e.target.scrollTop + 1;
     const clientHeight = e.target.clientHeight;
